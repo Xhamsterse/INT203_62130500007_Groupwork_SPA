@@ -1,5 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="Info">
+    <Todolist> </Todolist>
+
+
   </div>
 </template>
+
+<script>
+import Todolist from "@/components/Todolist.vue";
+export default {
+  name: "Info",
+  components: { Todolist },
+};
+</script>
