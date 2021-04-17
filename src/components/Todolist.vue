@@ -1,5 +1,5 @@
 <template>
-  <h2>ToDo List</h2>
+  <!-- <h1>ToDo List</h1>
   <ul>
     <li v-for="(todo, index) in todos" :key="index">
       <span :class="{ done: todo.done }" @click="doneTodo(todo)">{{
@@ -8,7 +8,13 @@
       <button @click="removeTodo(index)">Remove</button>
     </li>
   </ul>
-  <h4 v-if="todos.length === 0">Empty list.</h4>
+  <h4 v-if="todos.length === 0">Empty list.</h4> -->
+   <h1>Todo Info</h1>
+  <form @submit.prevent="addTodo()">
+    <label>Check Info @ here</label>
+    <input v-model="newTodo" name="newTodo" autocomplete="off" />
+    <button>Submit</button>
+  </form>
 </template>
 
 <script>

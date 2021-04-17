@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-    <router-link to="/">Todoapp</router-link> |
+    <router-link to="/">Home</router-link> |
     <router-link to="/Info">Info</router-link>
   </div>
   <router-view/>
@@ -13,10 +13,12 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
 }
 
 #nav {
   padding: 30px;
+  background-color: tan;
 }
 
 #nav a {
@@ -25,6 +27,6 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color:red;
 }
 </style>
