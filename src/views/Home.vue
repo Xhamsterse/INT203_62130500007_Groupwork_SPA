@@ -1,12 +1,12 @@
 <template>
-  <h1>Todo App</h1>
+  <h1>Freedom All</h1>
   <form @submit.prevent="Submit()">
-    <label>Put @ here and go Info</label>
+    <label>Put some message @ here and go Info</label>
     <input v-model="newTodo" type="text" name="newTodo" autocomplete="off" />
     <button>Submit</button>
   </form>
   <div class="home"></div>
-  {{ newTodo }}
+
 </template>
 
 
@@ -28,7 +28,7 @@ export default {
       this.addSubmit({
         newTodo: this.newTodo,
       });
-      console.log(this.newTodo);
+      
     },
 
     async addSubmit(addsubmit) {
