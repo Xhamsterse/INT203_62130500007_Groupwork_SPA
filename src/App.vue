@@ -1,9 +1,11 @@
 <template>
-  <div id="nav">
+<div>
+  <div id="nav" >
     <router-link to="/">Home</router-link> |
     <router-link to="/Info">Info</router-link>
   </div>
   <router-view/>
+</div>
 </template>
 
 <style>
@@ -13,6 +15,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: coral;
   
 }
 
