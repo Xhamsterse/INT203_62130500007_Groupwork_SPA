@@ -1,5 +1,5 @@
 <template>
-  <h1>Freedom All</h1>
+  <h1>Everything Jingle Bell</h1>
   <form @submit.prevent="Submit()">
     <label>Put some message @ here and go Info</label>
     <input v-model="newTodo" type="text" name="newTodo" autocomplete="off" />
